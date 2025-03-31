@@ -1,0 +1,171 @@
+// 单行文本溢出
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// 字体导入
+@font-face {
+  font-weight: 400;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("../../public/fonts/Orbitron-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("../../public/fonts/Orbitron-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("../../public/fonts/Orbitron-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("../../public/fonts/Orbitron-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("../../public/fonts/Orbitron-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 900;
+  font-family: "Orbitron";
+  font-style: normal;
+  src: url("../../public/fonts/Orbitron-Black.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 200;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-Light.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 900;
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../../public/fonts/Nunito-Black.ttf") format("truetype");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "SofiaPro";
+  font-style: normal;
+  src: url("../../public/fonts/Sofia-Pro-Regular.otf") format("truetype");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "SofiaPro";
+  font-style: normal;
+  src: url("../../public/fonts/Sofia-Pro-Semi-Bold.otf") format("truetype");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Regular.otf") format("truetype");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Medium.otf") format("truetype");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Medium.otf") format("truetype");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Heavy.otf") format("truetype");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Heavy.otf") format("truetype");
+}
+@font-face {
+  font-weight: 900;
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Black.otf") format("truetype");
+}
+@font-face {
+  font-weight: "bold";
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Black.otf") format("truetype");
+}
+@font-face {
+  font-weight: "bolder";
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url("../../public/fonts/Eurostile-Black.otf") format("truetype");
+}
+
+// 清浮动
+.clearfix {
+  *zoom: 1;
+
+  &::before,
+  &::after {
+    display: table;
+    clear: both;
+    content: " ";
+  }
+
+  &::after {
+    display: block;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+}
